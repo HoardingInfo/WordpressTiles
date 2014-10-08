@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box_column, .box_post {
+	float:left;	
+}
+.box_column:last, .box_post:last {
+	float:none;	
+}
+.box_post {
+	display:block;
+	z-index:100;
+}
+.box p {
+	display:none;
+}
+
+.box h2 {
+	font-size:1em;
+	margin:0;
+	color:#FFF;
+	text-align:center;
+}
+.box h2.text_attr {
+	line-height:100px;	
+}
+.box p.text_attr {
+	display:block;
+	padding:20px;	
+}
+.box p {
+	font-size:1em;
+	margin:0;
+	color:#FFF;
+}
+.box {
+	position:relative;	
+}
+.cls {
+	clear:both;	
+}
+.over {
+	z-index:500;	
+}
